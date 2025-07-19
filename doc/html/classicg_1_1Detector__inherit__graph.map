@@ -1,0 +1,7 @@
+<map id="icg::Detector" name="icg::Detector">
+<area shape="rect" id="Node000001" title="Abstract class that is able to set the pose of a referenced Body object." alt="" coords="115,5,220,31"/>
+<area shape="rect" id="Node000002" href="$classicg_1_1ManualDetector.html" title="Detector that allows a user to select 4 points in the image and that, based on those points,..." alt="" coords="5,79,159,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="145,41,98,80,94,76,142,37"/>
+<area shape="rect" id="Node000003" href="$classicg_1_1StaticDetector.html" title="Detector that assigns a defined pose to a referenced Body object." alt="" coords="183,79,325,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="193,37,242,76,238,81,190,41"/>
+</map>

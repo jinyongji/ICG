@@ -1,0 +1,5 @@
+<map id="icg::DepthModel" name="icg::DepthModel">
+<area shape="rect" id="Node000001" title="Model that holds a Sparse Viewpoint Model that is generated from a Body and that is used by the Depth..." alt="" coords="5,79,133,104"/>
+<area shape="rect" id="Node000002" href="$classicg_1_1Model.html" title="Abstract class that precomputes and stores geometric information from Body objects that is required b..." alt="" coords="25,5,114,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="72,44,72,79,67,79,67,44"/>
+</map>

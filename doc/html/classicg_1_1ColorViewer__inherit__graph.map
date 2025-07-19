@@ -1,0 +1,9 @@
+<map id="icg::ColorViewer" name="icg::ColorViewer">
+<area shape="rect" id="Node000001" title="Abstract Viewer class that defines a color viewer." alt="" coords="125,79,253,104"/>
+<area shape="rect" id="Node000003" href="$classicg_1_1ImageColorViewer.html" title="Viewer that displays color images from a ColorCamera." alt="" coords="5,152,175,177"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="164,114,108,154,105,150,160,110"/>
+<area shape="rect" id="Node000004" href="$classicg_1_1NormalColorViewer.html" title="Viewer that overlays color images from a ColorCamera with normal renderings based on the geometry sto..." alt="" coords="199,152,375,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="217,110,273,150,270,154,214,114"/>
+<area shape="rect" id="Node000002" href="$classicg_1_1Viewer.html" title="Abstract class that defines a viewer and functionality to view and save images." alt="" coords="141,5,236,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="191,44,191,79,186,79,186,44"/>
+</map>

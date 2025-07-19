@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classicg_1_1Detector.html" title="Abstract class that is able to set the pose of a referenced Body object." alt="" coords="5,31,111,56"/>
+<area shape="rect" id="Node000001" href="$classicg_1_1ManualDetector.html" title="Detector that allows a user to select 4 points in the image and that, based on those points,..." alt="" coords="159,5,312,31"/>
+<area shape="poly" id="edge9_Node000000_Node000001" title=" " alt="" coords="124,31,158,26,159,32,124,37"/>
+<area shape="rect" id="Node000002" href="$classicg_1_1StaticDetector.html" title="Detector that assigns a defined pose to a referenced Body object." alt="" coords="164,55,307,80"/>
+<area shape="poly" id="edge10_Node000000_Node000002" title=" " alt="" coords="125,50,164,55,163,60,124,55"/>
+</map>

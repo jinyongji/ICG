@@ -1,0 +1,11 @@
+<map id="icg::FullRenderer" name="icg::FullRenderer">
+<area shape="rect" id="Node000001" title="Abstract Renderer class that defines a full renderer that renders the image according to the image wi..." alt="" coords="151,79,281,104"/>
+<area shape="rect" id="Node000003" href="$classicg_1_1FullDepthRenderer.html" title="Abstract Renderer class that defines a full depth renderer that extends the FullRenderer class with f..." alt="" coords="131,152,301,177"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="219,118,219,152,213,152,213,118"/>
+<area shape="rect" id="Node000002" href="$classicg_1_1Renderer.html" title="Abstract class that defines a renderer as a single camera at a defined location." alt="" coords="162,5,270,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="219,44,219,79,213,79,213,44"/>
+<area shape="rect" id="Node000004" href="$classicg_1_1FullBasicDepthRenderer.html" title="Renderer that extends the full depth renderer class with functionality from BasicDepthRendererCore to..." alt="" coords="5,225,211,251"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="189,187,127,227,124,223,186,183"/>
+<area shape="rect" id="Node000005" href="$classicg_1_1FullNormalRenderer.html" title="Renderer that extends the full depth renderer class with functionality from NormalRendererCore to ren..." alt="" coords="235,225,413,251"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="246,183,308,223,305,227,243,187"/>
+</map>
