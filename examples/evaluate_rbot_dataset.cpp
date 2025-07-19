@@ -5,19 +5,22 @@
 
 int main() {
   // Directories
-  std::filesystem::path dataset_directory{"/your/path/"};
-  std::filesystem::path external_directory{"/your/path/"};
-  std::filesystem::path result_directory{"/your/path/"};
+  std::filesystem::path dataset_directory{"/media/jyj/JYJ/RBOT-dataset/"};
+  std::filesystem::path external_directory{"/home/jyj/Projects/3DObjectTracking-master/ICG/external/"};
+  std::filesystem::path result_directory{"/home/jyj/Projects/3DObjectTracking-master/ICG/result/"};
 
   // Dataset configuration
-  std::vector<std::string> body_names{
+  /*std::vector<std::string> body_names{
       "ape",  "bakingsoda", "benchviseblue", "broccolisoup", "cam",
       "can",  "cat",        "clown",         "cube",         "driller",
       "duck", "eggbox",     "glue",          "iron",         "koalacandy",
       "lamp", "phone",      "squirrel"};
   std::vector<std::string> sequence_names{
       "a_regular", "b_dynamiclight", "c_noisy", "d_occlusion", "d_occlusion"};
-  std::vector<bool> sequence_occlusions{false, false, false, false, true};
+  std::vector<bool> sequence_occlusions{false, false, false, false, true};*/
+  std::vector<std::string> body_names{"eggbox"};
+  std::vector<std::string> sequence_names{"a_regular"};
+  std::vector<bool> sequence_occlusions{false};
 
   // Run experiments
   RBOTEvaluator evaluator{"evaluator", dataset_directory, external_directory,
@@ -49,7 +52,7 @@ int main() {
     t->set_n_update_iterations(2);
     t->set_n_corr_iterations(7);
   });
-  evaluator.set_visualize_all_results(false);
+  evaluator.set_visualize_all_results(true);
   evaluator.SaveResults(result_directory);
   evaluator.SetUp();
   evaluator.Evaluate();
